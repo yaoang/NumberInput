@@ -178,7 +178,13 @@ var NumberInput = function (_React$Component) {
           onClick: function onClick(evt) {
             return _this2.changeNumber("up", usedInputType);
           } }),
-        _react2.default.createElement('input', { type: 'text', value: value, onChange: this.handleChange }),
+        _react2.default.createElement('input', {
+          type: 'text',
+          value: value,
+          onChange: this.handleChange,
+          ref: function ref(txt) {
+            return _this2.txtInput = txt;
+          } }),
         _react2.default.createElement('div', {
           className: usedPrefixCls + '_plusIcon',
           onClick: function onClick(evt) {
