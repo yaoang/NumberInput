@@ -32,7 +32,8 @@ and then use in your page
 >+ **prefixCls**: default value is '_**fy**_'  
 >+ **defaultStyle**: use the default style file given by author, default value is '_**true**_'  
 >+ **isCycle**: when touch the top or the bottom, it will start from the opposite, default value is '_**false**_'  
->+ **type**: values in {_"**number**", "**time**"_}, default value is '_**number**_'  
+>+ **type**: values in {_"**number**", "**time**"_}, default value is '_**number**_'
+
 ```javascript
 handleChange(evt) {
     /* Your change event here */
