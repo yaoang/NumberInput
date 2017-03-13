@@ -1,6 +1,6 @@
 {
   "name": "numberinput",
-  "version": "0.9.9",
+  "version": "0.9.10",
   "description": "A number input component for react project",
   "main": "./dist/number-input",
   "scripts": {
@@ -11,8 +11,12 @@
     "url": "https://github.com/yaoang/NumberInput.git"
   },
   "keywords": [
+    "react",
     "number",
-    "input"
+    "input",
+    "number-input",
+    "react-numberinput",
+    "react-number-input"
   ],
   "author": "Yaoang",
   "license": "MIT",
