@@ -1,8 +1,8 @@
 # NumberInput  
 > **Author:** _yaoang_
 
-输入数字的Mobile端插件，用于React项目    
-_A number input component for react project_
+
+A mobile number input component for react project  
 
 ## How to use  
 First, you must install this component  
