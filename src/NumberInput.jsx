@@ -1,5 +1,6 @@
 import React from 'react';
 import classnames from 'classnames'
+// import '../assets/numberInput.scss'
 
 class NumberInput extends React.Component {
   constructor(props) {
@@ -123,9 +124,7 @@ class NumberInput extends React.Component {
       className: extendClassName,
       prefixCls,
       defaultStyle} = this.props;
-    if(!!defaultStyle) {
-      require('../assets/numberInput.scss');
-    }
+
     const usedInputType = inputType ? inputType : "number";
     const usedPrefixCls = prefixCls ? prefixCls : 'fy';
     const className = classnames(`${usedPrefixCls}_numberInput`, extendClassName);
