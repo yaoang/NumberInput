@@ -165,7 +165,7 @@ var NumberInput = function (_React$Component) {
           defaultStyle = _props3.defaultStyle;
 
       if (!!defaultStyle) {
-        require('./number-input.css');
+        require('../assets/numberInput.scss');
       }
       var usedInputType = inputType ? inputType : "number";
       var usedPrefixCls = prefixCls ? prefixCls : 'fy';
