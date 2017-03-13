@@ -133,7 +133,11 @@ class NumberInput extends React.Component {
         <div 
           className={`${usedPrefixCls}_minuteIcon`} 
           onClick={evt => this.changeNumber("up", usedInputType)} />
-        <input type='text' value={value} onChange={this.handleChange} />
+        <input
+            type='text'
+            value={value}
+            onChange={this.handleChange}
+            ref={txt=>this.txtInput = txt} />
         <div 
           className={`${usedPrefixCls}_plusIcon`} 
           onClick={evt => this.changeNumber("down", usedInputType)} />
