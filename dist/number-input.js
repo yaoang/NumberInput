@@ -58,7 +58,7 @@ var NumberInput = function (_React$Component) {
       }
 
       el.dispatchEvent(e);
-      this.onChange(e);
+      this.handleChange(e);
     }
   }, {
     key: 'changeNumber',
@@ -176,7 +176,7 @@ var NumberInput = function (_React$Component) {
         _react2.default.createElement('div', {
           className: usedPrefixCls + '_minuteIcon',
           onClick: function onClick(evt) {
-            return _this2.changeNumber("up", usedInputType);
+            return _this2.changeNumber("down", usedInputType);
           } }),
         _react2.default.createElement('input', {
           type: 'text',
@@ -188,7 +188,7 @@ var NumberInput = function (_React$Component) {
         _react2.default.createElement('div', {
           className: usedPrefixCls + '_plusIcon',
           onClick: function onClick(evt) {
-            return _this2.changeNumber("down", usedInputType);
+            return _this2.changeNumber("up", usedInputType);
           } })
       );
     }
