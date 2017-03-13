@@ -1,6 +1,6 @@
 {
   "name": "numberinput",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "description": "A number input component for react project",
   "main": "./dist/number-input",
   "scripts": {

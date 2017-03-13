@@ -32,7 +32,7 @@ class NumberInput extends React.Component {
 		}
 
 		el.dispatchEvent(e);
-		this.onChange(e);
+		this.handleChange(e);
 	}
 
   changeNumber(direction, inputType) {
