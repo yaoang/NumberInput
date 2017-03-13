@@ -1,13 +1,12 @@
 var babel = require('gulp-babel');
-var browserify = require('browserify');
+// var browserify = require('browserify');
 var concat = require('gulp-concat');
-var connect = require('gulp-connect');
 var gulp = require('gulp');
 var replace = require('gulp-replace');
 var livereload = require('gulp-livereload');
 var rename = require('gulp-rename');
 var sass = require('gulp-sass');
-var uglify = require('gulp-uglify');
+// var uglify = require('gulp-uglify');
 // var cleanCSS = require('gulp-clean-css');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
