@@ -1,0 +1,31 @@
+.fy_numberInput {
+  margin: 0 auto;
+  .fy_minuteIcon {
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    color: #000000;
+    width: 2rem;
+    height: 2rem;
+    content: '-';
+
+    .disabled {
+      color: #e0e0e0;
+    }
+  }
+  .fy_plusIcon {
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    color: #000000;
+    width: 2rem;
+    height: 2rem;
+    content: '+';
+
+    .disabled {
+      color: #e0e0e0;
+    }
+  }
+  input {
+    text-align: center;
+    width: 90%;
+  }
+}

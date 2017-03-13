@@ -1,0 +1,23 @@
+{
+  "name": "numberinput",
+  "version": "0.9.0",
+  "description": "A number input component for react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaoang/NumberInput.git"
+  },
+  "keywords": [
+    "number",
+    "input"
+  ],
+  "author": "Yaoang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaoang/NumberInput/issues"
+  },
+  "homepage": "https://github.com/yaoang/NumberInput#readme"
+}
