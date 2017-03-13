@@ -29,7 +29,7 @@ gulp.task('source-js', function () {
     return gulp.src('./src/NumberInput.jsx')
         .pipe(concat('number-input.js'))
         .pipe(babel(babelOptions))
-        .pipe(replace('../assets/numberInput.scss', './number-input.css'))
+        // .pipe(replace('../assets/numberInput.scss', './number-input.css'))
         .pipe(gulp.dest('./dist'))
         .pipe(livereload());
 });
