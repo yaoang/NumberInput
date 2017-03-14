@@ -7,7 +7,7 @@ A mobile number input component for react project
 ## How to use  
 First, you must install this component  
 ```
-npm install --save inputnumber
+npm install --save numberinput
 ```  
 secondly import in your page  
 ```javascript
